@@ -65,11 +65,6 @@ body * {
     margin-right: 47px;
 }
 
-@media screen and (max-width: 900px) {
-    .header-navigation-item {
-      margin-right: 10px;
-    }
-  }
 
 .header-navigation-item a {
     text-decoration: none;
@@ -125,16 +120,6 @@ body * {
     color: white;
 }
 
-@media screen and (max-width: 1030px) {
-    .title {
-      margin-top: 0;
-      font-size: 23px;
-      line-height: 31px;
-      padding-top: 85px;
-      padding-left: 0;
-      width: 300px;
-    }
-  }
 
 .city {
     color: #E3B873;
@@ -148,12 +133,6 @@ body * {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1030px) {
-    .text {
-      font-size: 14px;
-      line-height: 19px;
-    }
-  }
 
 .text-container {
     padding-top: 19px;
@@ -187,20 +166,6 @@ body * {
     color: white;
     font-style: italic;
 }
-
-@media screen and (max-width: 1030px) {
-    .second-button, .first-button {  
-      width: 100%;
-      padding: 19px 0px;
-      margin-left: -18px;
-      margin-right: 18px;
-      margin-top: 22px;
-    }
-    .button-choice {
-   display: flex;
-   flex-wrap: wrap;
-    }
-  }
 
 
 /* Completed Projects section */
